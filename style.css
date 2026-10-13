@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    max-width: 80%;
+    margin: 20px auto;
+    background-image: url(media/nix-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Noto Sans", sans-serif;
+    color: #222;
+    line-height: 1.5;
+}
+
+.top {
+    background-color: rgba(56, 144, 215, 0.75);
+    color: #111;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#logo {
+    max-width: 80%;
+}
+
+.yap {
+    background-color: rgba(56, 144, 215, 0.6);
+    color: #111;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.code {
+    background-color: rgba(56, 144, 215, 0.6);
+    color: #111;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.etc {
+    background-color: rgba(56, 144, 215, 0.6);
+    color: #111;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 6px;
+  overflow-x: auto; /* Adds a horizontal scrollbar if the code line is too long */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+code {
+    white-space: pre; /* Ensures whitespace and tabs are strictly maintained */
+}
